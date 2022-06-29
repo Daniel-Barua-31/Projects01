@@ -1,0 +1,154 @@
+body{
+	margin:0px;
+	padding:0px;	
+	font-family: calibri;
+}
+a{
+	text-decoration: none;
+}
+.login-container{
+	background-size:cover;
+	background-repeat: no-repeat;
+	width:100%;
+	height: 100vh;
+	position: relative;
+	background-color: LightSeaGreen;
+}
+.topnav {
+  overflow: hidden;
+  background-color:DarkCyan;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: PapayaWhip;
+  text-align: center;
+  padding: 15px 170px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: PowderBlue;
+  color: black;
+}
+.login-inputs{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.login-inputs h1{
+	color: PapayaWhip;
+	font-size: 3rem;
+	letter-spacing: 10px;
+	margin:3px;
+	text-transform: uppercase;
+}
+.login-inputs form{
+	background-color:DarkCyan;
+	border-radius: 40px;
+	padding: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.login-inputs form input{
+	margin: 5px;
+	width: 350px;
+	height: 40px;
+	background-color: CadetBlue;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	color:#fff;
+	padding:5px 10px;
+}
+.container{
+	display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.choice {
+	color:#fff;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.container .checkmark:after {
+ 	top: 20px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.picture {
+	position : left ;
+	color : LightSalmon;
+
+}
+.login-inputs form button{
+	text-transform: uppercase;
+	width: 300px;
+	height: 45px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	margin:5px;
+	font-weight:600;
+	background-color:DarkTurquoise;
+	color:#fff;
+	font-size:18px;
+	font-family: poppins;
+	letter-spacing: 2px;
+}
+.forget{
+	color:FloralWhite;
+	margin: 20px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 4rem;
+}
+.te {
+	color : Crimson;
+	forn-size : 0.9rem;
+	letter-spacing : 5px;
+	text-transform : uppercase;
+}
+.Registration{
+	color: LightCoral;
+	font-size: 4rem;
+	letter-spacing: 4px;
+	margin:10px;
+	text-transform: uppercase;
+	
+}

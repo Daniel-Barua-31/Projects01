@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: LightSeaGreen;
+}
+#header01{
+	font-family: poppins;
+	font-size: 30px;
+	font-weight: bold;
+	color : white;
+	background-color: DarkCyan;
+	text-align: center;
+}
+#blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.card{
+	colot: LightCoral;
+	letter-spacing: 2px;
+	margin: 5px;
+	text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color:DarkCyan;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px 150px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: PowderBlue;
+  color: black;
+}
+.tweet-body {
+    width: 82%;
+    margin-left: 60px;
+    align-items: center;
+}
+.tweet-body textarea{
+    overflow: hidden;
+    resize: none;
+    margin-top: 40px;
+    height: 220px;
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+}

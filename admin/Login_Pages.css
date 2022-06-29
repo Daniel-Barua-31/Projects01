@@ -1,0 +1,103 @@
+body{
+	margin:0px;
+	padding:0px;	
+	font-family: calibri;
+}
+a{
+	text-decoration: none;
+}
+.login-container{
+	background-size:cover;
+	background-repeat: no-repeat;
+	width:100%;
+	height: 100vh;
+	position: relative;
+	background-color: LightSeaGreen;
+}
+.topnav {
+  overflow: hidden;
+  background-color:DarkCyan;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: PapayaWhip;
+  text-align: center;
+  padding: 25px 160px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: PowderBlue;
+  color: black;
+}
+.login-inputs{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.login-inputs h1{
+	color: PapayaWhip;
+	font-size: 6rem;
+	letter-spacing: 4px;
+	margin:10px;
+	text-transform: uppercase;
+}
+.login-inputs form{
+	background-color:DarkCyan;
+	border-radius: 30px;
+	padding: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.login-inputs form input{
+	margin: 30px;
+	width: 350px;
+	height: 50px;
+	background-color: CadetBlue;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	color:#fff;
+	padding:5px 10px;
+}
+.login-inputs form button{
+	text-transform: uppercase;
+	width: 300px;
+	height: 45px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	margin:5px;
+	font-weight:600;
+	background-color:DarkTurquoise;
+	color:#fff;
+	font-size:18px;
+	font-family: poppins;
+	letter-spacing: 2px;
+}
+.forget{
+	color:FloralWhite;
+	margin: 20px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 4rem;
+}
+.Registration{
+	color: LightCoral;
+	font-size: 4rem;
+	letter-spacing: 4px;
+	margin:10px;
+	text-transform: uppercase;
+	
+}
